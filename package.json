@@ -3,12 +3,12 @@
   "description": "",
   "author": "Jaiane Oliveira",
   "license": "ISC",
-  "packageManager": "pnpm@10.28.1",
   "private": true,
   "scripts": {
     "dev": "pnpm --parallel --filter @status-board/web --filter @status-board/api dev",
     "dev:web": "pnpm --filter @status-board/web dev",
     "dev:api": "pnpm --filter @status-board/api dev",
     "build": "pnpm -r build"
-  }
+  },
+  "packageManager": "pnpm@10.28.1"
 }
