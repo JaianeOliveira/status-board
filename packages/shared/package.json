@@ -1,0 +1,10 @@
+{
+  "name": "@status-board/shared",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "zod": "^4.4.2"
+  },
+  "packageManager": "pnpm@10.28.1"
+}

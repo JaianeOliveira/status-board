@@ -1,0 +1,21 @@
+{
+  "name": "@status-board/api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "@status-board/shared": "workspace:*",
+    "fastify": "^5.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.2",
+    "tsx": "^4.21.0",
+    "typescript": "~6.0.3"
+  },
+  "packageManager": "pnpm@10.28.1"
+}
