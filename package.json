@@ -2,7 +2,7 @@
   "name": "status-board",
   "description": "",
   "author": "Jaiane Oliveira",
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "pnpm --parallel --filter @status-board/web --filter @status-board/api dev",
